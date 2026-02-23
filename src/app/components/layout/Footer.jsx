@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {Linkedin , Instagram} from "lucide-react"
 
 export default function Footer ()  {
     return(
@@ -31,6 +32,15 @@ export default function Footer ()  {
                 {link.name}
               </Link>
             ))}
+            {/* Social links */}
+            <div className="flex gap-4">
+              <a href="https://www.linkedin.com/company/vurizo" target="_blank" rel="noopener noreferrer">
+                <Linkedin  className="w-5 h-5 text-slate-400 hover:text-primary transition-colors"/>
+              </a>
+              <a href="https://www.instagram.com/vurizo.in" target="_blank" rel="noopener noreferrer">
+                <Instagram  className="w-5 h-5 text-slate-400 hover:text-primary transition-colors"/>
+              </a>
+            </div>
           </div>
           <div className="text-sm text-slate-600">
             © {new Date().getFullYear()} Vurizo AI Automation & Custom SaaS.&nbsp; All rights reserved.
