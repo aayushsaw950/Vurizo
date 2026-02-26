@@ -30,7 +30,7 @@ export default function Hero() {
         transition={{ delay: 0.2 }}
         className="mx-auto mb-10 max-w-2xl text-lg text-slate-400 sm:text-xl"
       >
-        We design and build business systems that capture leads, automate follow-ups, and streamline operations using modern AI.
+       We build smart business systems that combine custom software, automation, and AI to help businesses operate faster and grow revenue.
       </motion.p>
       <motion.div 
         initial={{ opacity: 0, y: 20 }}

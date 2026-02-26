@@ -12,9 +12,11 @@ export default function CTA  () {
         <div className="absolute -right-24 -top-24 h-96 w-96 rounded-full bg-black/5 blur-3xl"></div>
         <div className="absolute -left-24 -bottom-24 h-96 w-96 rounded-full bg-black/5 blur-3xl"></div>
         <div className="relative z-10 mx-auto max-w-3xl">
-          <h2 className="text-4xl font-bold text-black md:text-5xl">Automate Leads, Tasks, and Reports for Your Business</h2>
+          <h2 className="text-4xl font-bold text-black md:text-5xl">
+            Turn Manual Operations into Automated Growth Systems
+          </h2>
           <p className="mt-6 text-lg font-medium text-black/70">
-             Start automating your workflows and reduce manual work today.
+            Let’s build a custom software and automation system tailored to your business.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a href="/contact"

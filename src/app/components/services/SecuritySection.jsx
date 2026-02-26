@@ -2,9 +2,11 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function SecuritySection() {
   const points = [
-    "Encrypted data-flow between systems",
-    "Secure execution environments",
-    "Human approval for critical actions",
+    "End-to-end encrypted data transmission between systems",
+    "Secure, isolated execution environments for automation workflows",
+    "Role-based access control and permission management",
+    "Human approval layers for critical business actions",
+    "Regular monitoring and audit logging for system activities",
   ];
 
   return (

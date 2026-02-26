@@ -8,50 +8,49 @@ export default function PricingGrid() {
   const plans = [
     {
       id: 1,
-      title: "Automation Starter",
-      price: "₹40,000",
+      title: "Business Management System",
+      price: "₹75,000",
       features: [
-        "AI chatbot (lead capture)",
-        "WhatsApp/email follow-up automation",
-        "Basic CRM dashboard (leads + members)",
-        "Payment reminder automation",
-        "Deployment",
-        "1 month support",
+        "Custom business web application",
+        "Role-based dashboards (Admin / Staff)",
+        "Built-in CRM for leads & customers",
+        "Member / operational management",
+        "Payment tracking system",
+        "Analytics & reporting dashboard",
+        "Deployment + 1 month support",
       ],
-      goal: "Increase lead conversion + stop revenue leakage."
+      goal: "Centralize and digitize your core business operations."
     },
     {
       id: 2,
-      title: "Business Growth System",
-      price: "₹1,00,000",
+      title: "Business + Automation System",
+      price: "₹1,20,000",
       features: [
-        "Website (5 pages)",
-        "AI chatbot",
-        "Full CRM dashboard",
-        "Member management",
-        "Attendance tracking",
-        "Payment tracking",
-        "Renewal reminders",
-        "Basic analytics",
+        "Everything in Business Management System",
+        "Website chatbot with lead capture",
+        "WhatsApp & email follow-up automation",
+        "Payment & renewal reminder workflows",
+        "Lead-to-CRM automation",
+        "Workflow automation for daily operations",
         "Deployment + 2 months support",
       ],
-      goal: "Complete digital + automation setup."
+      goal: "Automate operations and eliminate manual follow-ups."
     },
     {
       id: 3,
-      title: "Custom SaaS Build",
+      title: "Intelligent Business Platform",
       price: "₹2,50,000+",
       features: [
-        "Full Stack SaaS",
-        "Role-based dashboards",
-        "Subscription/payment integration",
-        "Advanced analytics",
-        "RAG knowledge assistant",
-        "Multi-branch support",
-        "Scalable cloud infra",
+        "Everything in Business + Automation System",
+        "AI-powered business reports",
+        "Smart insights from operational data",
+        "AI dashboard assistant (Ask your data)",
+        "Renewal / churn prediction indicators",
+        "RAG-based knowledge assistant (if required)",
+        "Scalable cloud architecture",
         "3 months support",
       ],
-      goal: "Full software product for chains or founders."
+      goal: "Build a fully automated and AI-driven business system."
     },
   ];
 

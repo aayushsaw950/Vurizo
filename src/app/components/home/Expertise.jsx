@@ -9,44 +9,49 @@ export default function Expertise () {
       Core Expertise
     </h2>
     <h3 className="mt-4 text-4xl font-bold text-white sm:text-5xl">
-      AI-powered systems built to automate and scale your business.
+       Custom Software, Automation & AI Systems for Modern Businesses
     </h3>
   </div>
 
   <div className="grid gap-6 md:grid-cols-3">
     {[
-      {
-        title: "AI Automation",
-        points: [
-          "Website chatbots with lead capture",
-          "WhatsApp & email follow-up automation",
-          "Payment & renewal reminders",
-          "Workflow automation for daily operations",
-        ],
-        icon: <Workflow size={24} />,
-      },
-      {
-        title: "Custom Business Software",
-        points: [
-          "Full-stack MERN applications",
-          "Role-based dashboards (Admin / Staff / Users)",
-          "Built-in CRM for managing leads & customers",
-          "Payment and attendance tracking",
-          "Analytics & performance reporting",
-        ],
-        icon: <Database size={24} />,
-      },
-      {
-        title: "AI Integration",
-        points: [
-          "RAG-based knowledge assistants",
-          "AI-powered business reports",
-          "Smart insights from operational data",
-          "Custom automation logic using LLMs",
-        ],
-        icon: <Terminal size={24} />,
-      },
-    ].map((item, i) => (
+        {
+          title: "Custom Business Software",
+          points: [
+            "Full-stack web applications tailored to business operations",
+            "Role-based dashboards (Admin / Staff / Users)",
+            "Built-in CRM for managing leads & customers",
+            "Payment, attendance & operational tracking systems",
+            "Analytics & performance reporting dashboards",
+            "Secure, scalable and production-ready architecture"
+          ],
+          icon: <Database size={24} />,
+        },
+        {
+          title: "Automation Systems",
+          points: [
+            "Website chatbots with automatic lead capture",
+            "WhatsApp & email follow-up automation",
+            "Payment & renewal reminder systems",
+            "Workflow automation for daily business operations",
+            "CRM & third-party tool integrations",
+            "Custom automation logic using workflow engines (e.g., n8n)"
+          ],
+          icon: <Workflow size={24} />,
+        },
+        {
+          title: "AI Integration & Intelligence",
+          points: [
+            "AI-powered business performance reports",
+            "Smart insights from operational data",
+            "Dashboard-based AI assistants (Ask your data)",
+            "RAG-based knowledge assistants",
+            "Predictive indicators (renewal / churn risk)",
+            "LLM-powered custom automation workflows"
+          ],
+          icon: <Terminal size={24} />,
+        },
+      ].map((item, i) => (
       <motion.div
         key={item.title}
         initial={{ opacity: 0, y: 20 }}

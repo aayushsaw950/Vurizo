@@ -16,11 +16,11 @@ export default function HeroSection() {
           className="space-y-8"
         >
           <h1 className="text-5xl lg:text-7xl font-bold leading-[1.1] tracking-tight">
-            AI Automation & <span className="text-primary italic">Custom SaaS</span> for Growing Businesses
+           Custom Software & <span className="text-primary italic">AI Automation</span> for Growing Businesses
           </h1>
 
           <p className="text-slate-400 text-lg lg:text-xl max-w-xl leading-relaxed">
-            We build systems that automate tasks, manage leads, and streamline operations.
+          We design and build intelligent business systems that combine custom software, automation, and AI to streamline operations and accelerate growth.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">

@@ -39,11 +39,11 @@ export default function ContactPage() {
         transition={{ duration: 0.6 }}
         className="text-center mb-16"
       >
-        <h1 className="text-4xl lg:text-5xl font-bold">
-          Let’s Automate Your Business
+       <h1 className="text-4xl lg:text-5xl font-bold">
+          Let’s Turn Your Manual Workflows into Automated Systems
         </h1>
         <p className="text-slate-400 mt-4">
-          Tell us about your business and we’ll design the right automation system for you.
+          Share your current process, and we’ll design a custom automation solution that saves time, reduces errors, and scales your operations.
         </p>
       </motion.div>
 

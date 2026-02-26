@@ -50,18 +50,16 @@ export default function AboutPage() {
           className="space-y-6 text-slate-300"
         >
           <p>
-            Hi, I’m <strong>Aayush Kumar</strong>, founder of <strong>Vurizo</strong>. 
-            I started Vurizo to help businesses automate repetitive tasks, manage leads efficiently, and scale operations using intelligent AI systems.
+            Hi, I’m <strong>Aayush Kumar</strong>, founder of <strong>Vurizo</strong>.
+            I started Vurizo with one clear mission — to help growing businesses replace manual work with intelligent systems that automate operations and unlock growth.
           </p>
 
           <p>
-            With expertise in <strong>Full stack development</strong> and now specializing in <strong>LLMs, RAG, and multi-agent workflows</strong>, 
-            I design solutions that reduce manual work and increase efficiency. Vurizo empowers businesses to save time, generate more revenue, and
-             streamline operations with AI-driven automation.
+            With a background in <strong>full-stack engineering</strong> and advanced AI systems, I design custom software, automation workflows, and data-driven solutions that streamline operations, improve lead management, and increase revenue efficiency.
           </p>
 
           <p>
-            Our goal is simple: transform manual bottlenecks into autonomous systems, helping businesses grow smarter, faster, and more efficiently.
+            At Vurizo, we don’t just build software — we build smart business systems that transform repetitive tasks into scalable, automated processes.
           </p>
 
           <div className="mt-6">
